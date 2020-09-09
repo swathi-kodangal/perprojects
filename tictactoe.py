@@ -1,0 +1,6 @@
+f = open("mytext.txt","a")
+#print(f.read(299))
+print(f.write("swaaa"))
+f.close()
+f = open("mytext.txt","r")
+print(f.readline())
